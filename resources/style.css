@@ -310,7 +310,7 @@ a.anchor {
 /************************************************       BANNER 2 */
 .banner2 {
   width: 100vw;
-  height: 40vh;
+  height: auto;
   background-color: #34b8e7;
 }
 /************************************************       END BANNER 2 */
