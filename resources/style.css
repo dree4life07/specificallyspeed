@@ -278,11 +278,12 @@ a.anchor {
 }*/
 
 .banner-img {
-  background-image: url('images/canoe.jpg');
-  background-size: 220%;
+  background-image: url('images/banner_background.png');
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 60% 25%;
+  background-position: 50% 15%;
   width: 100%;
+  height: 100%;
   }
 
 /*.banner-img img {
