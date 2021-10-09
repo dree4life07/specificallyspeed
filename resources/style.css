@@ -549,7 +549,26 @@ a.anchor {
 
 
 /************************************************       REGISTER */
+.register {
+  width: 100%;
+  height: auto;
+}
 
+.register-container {
+  width: 100%;
+  height: auto;
+}
+
+.register-price-container {
+  width: 80%;
+  height: auto;
+}
+
+.register-price-tier1 {
+  width: 100%;
+  height: auto;
+  background-color: #6ecaeb;
+}
 /************************************************       END REGISTER */
 
 
