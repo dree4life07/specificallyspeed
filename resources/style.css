@@ -388,8 +388,7 @@ a.anchor {
    width: 80%;
    height: auto;
  }
-
- .events-info-container
+ 
 
  .event-date {
    width: auto;
@@ -433,6 +432,7 @@ a.anchor {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: .8em;
+  width: 80%;
 }
 
 .event-info-date-container {
