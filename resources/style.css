@@ -514,8 +514,33 @@ a.anchor {
 
 .headline-underline-white {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background-color: whitesmoke;
+}
+
+.schedule-inner-container {
+  width: 80%;
+  height: auto;
+}
+
+.schedule-time {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.schedule-activity {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.section {
+  border-bottom: 3px solid black;
+  padding: 8px 0;
+}
+
+.first-section {
+  margin-top: 1.75em;
 }
 /************************************************       END CAMP SCHEDULE */
 
