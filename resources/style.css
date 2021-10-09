@@ -328,10 +328,6 @@ a.anchor {
   /*z-index: 3;*/ 
 }
 
-.banner2-img1 {
-
-}
-
 .img2-p {
   width: 80%;
   height: auto;
@@ -346,9 +342,93 @@ a.anchor {
 
 
 
-/************************************************       PROCESS */
+/************************************************       EVENTS */
+.events {
+  width: 100%;
+  height: auto;
+}
 
-/************************************************       END PROCESS */
+.events-container {
+  width: 100%;
+  height: auto;
+}
+
+.headline {
+  width: auto;
+  height: auto;
+}
+
+.headline-underline {
+  width: 25px;
+  height: 3px;
+  background-color: #34b8e7;
+}
+
+ .events-img-container {
+   width: 80%;
+   height: auto;
+ }
+
+ .event-date {
+   width: auto;
+   height: auto;
+   background-color: #34b8e7;
+   padding: 5px 9px;
+   position:absolute;
+   z-index: 5; 
+ }
+
+.event-img-date {
+   font-size: 1em;
+   font-weight: 600;
+   text-align: center;
+   line-height: 1.1;
+   color: whitesmoke;
+ }
+
+ .event-img {
+   width: 100%;
+   height: auto;
+ }
+
+ .event-img img {
+  width: 100%;
+  height: auto;
+  margin: 2% 0 0 2%;
+ }
+ 
+.events-info-container {
+  width: 80%;
+  height: auto;
+  margin-left: 3%;
+}
+
+.events-info-container h4 {
+  margin-bottom: .5em;
+}
+
+.event-p p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: .8em;
+}
+
+.event-info-date {
+  margin-top: 1em;
+}
+
+.event-info-time {
+  margin-top: 1em;
+}
+
+.event-info-location {
+  margin-top: 1em;
+}
+
+.event-info-focus {
+  margin-top: 1em;
+}
+/************************************************       END EVENTS */
 
 
 
