@@ -309,9 +309,38 @@ a.anchor {
 
 /************************************************       BANNER 2 */
 .banner2 {
-  width: 100vw;
+  width: 100%;
   height: auto;
   background-color: #34b8e7;
+  /*z-index: 2;*/
+}
+
+.banner2-img-container {
+  width: 100%;
+  height: auto;
+
+  margin-top: 25px;
+}
+
+.banner2-img1, .banner2-img2, .banner2-img3 {
+  width: 80%;
+  height: 175px;
+  background-color: gainsboro;
+  /*z-index: 3;*/ 
+}
+
+.banner2-img1 {
+
+}
+
+.img2-p {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 600;
+  color: whitesmoke;
 }
 /************************************************       END BANNER 2 */
 
