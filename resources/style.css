@@ -288,7 +288,7 @@ a.anchor {
 
 .banner-img {
   background-image: url('images/banner_background.png');
-  background-size: 160%;
+  background-size: 150%;
   background-repeat: no-repeat;
   background-position: 50% 0;
   width: 100%;
@@ -312,14 +312,13 @@ a.anchor {
   width: 100%;
   height: auto;
   background-color: #34b8e7;
-  /*z-index: 2;*/
+  z-index: 2;
 }
 
 .banner2-img-container {
   width: 100%;
   height: auto;
-
-  margin-top: 25px;
+  justify-content: space-around;
 }
 
 .banner2-img1, .banner2-img2, .banner2-img3 {
