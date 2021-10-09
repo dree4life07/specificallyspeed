@@ -506,7 +506,17 @@ a.anchor {
 
 
 /************************************************       CAMP SCHEDULE */
+.schedule {
+  width: 100%;
+  height: auto;
+  background-color: #34b8e7;
+}
 
+.headline-underline-white {
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+}
 /************************************************       END CAMP SCHEDULE */
 
 
