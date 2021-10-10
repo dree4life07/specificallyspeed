@@ -525,7 +525,7 @@ a.anchor {
 
 .schedule-time {
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .schedule-activity {
@@ -567,7 +567,53 @@ a.anchor {
 .register-price-tier1 {
   width: 100%;
   height: auto;
+  justify-content: space-around;
+  align-items: center;
   background-color: #6ecaeb;
+  padding: 25px 25px 30px 25px;
+}
+
+.register-price-tier1 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.price-rounded {
+  background-color: black;
+  border-radius: 3px;
+}
+
+.price-rounded p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: .7em;
+  color: whitesmoke;
+  padding: 2px 8px;
+}
+
+.register-price-tier2 {
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #34b8e7;
+  padding: 25px 25px 30px 25px;
+}
+
+.register-price-tier2 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.register-price-info {
+  width: 75%;
+  height: auto;
+}
+
+.register-price-info p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: .7em;
 }
 /************************************************       END REGISTER */
 
