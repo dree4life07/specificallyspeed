@@ -284,6 +284,7 @@ a.anchor {
 }*/
 
 .banner-img-fixed {
+  background-color: thistle;
   width: 66%;
   height: 60vh;
   position: absolute;
@@ -940,7 +941,7 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-.banner-img-fixed {
+/*.banner-img-fixed {
   width: 66%;
   height: 60%;
   max-height: 800px;
@@ -948,7 +949,7 @@ a.contact-top-btn {
   z-index: 10;
   /*padding-top: 50%;
   padding-bottom: 50%;*/
-}
+/*}*/
 
 .banner-img-fixed img {
   max-width: 450px;
