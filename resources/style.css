@@ -359,10 +359,10 @@ a.anchor {
 
 .img2-p {
   /*width: 80%;*/
-  max-width: 350px;
+  /*max-width: 350px;*/
   height: auto;
   position: absolute;
-  padding: 0 10%;
+  padding: 0 15%;
   text-align: center;
   align-items: center;
   font-size: 1em;
@@ -1121,7 +1121,7 @@ a.contact-top-btn {
   }
 
   .img2-p {
-    max-width: 400px;
+    /*max-width: 400px;*/
   }
   /************************************************       END WORK */
 
