@@ -287,7 +287,7 @@ a.anchor {
 .banner-img-fixed {
   background-color: thistle;
   width: 66%;
-  height: 60vh;
+  height: auto;
   position: absolute;
   z-index: 10;
   /*padding-top: 58%;
