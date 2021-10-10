@@ -288,7 +288,6 @@ a.anchor {
   height: 60vh;
   position: absolute;
   z-index: 10;
-  align-items: center;
   /*padding-top: 58%;
   padding-bottom: 42%;*/
 }
@@ -383,7 +382,6 @@ a.anchor {
 
 .events-container {
   width: 100%;
-  max-width: 1000px;
   height: auto;
 }
 
@@ -406,7 +404,6 @@ a.anchor {
 
  .events-img-container {
    width: 80%;
-   max-width: 800px;
    height: auto;
  }
  
@@ -441,7 +438,6 @@ a.anchor {
  
 .events-info-container {
   width: 80%;
-  max-width: 800px;
   height: auto;
   margin-left: 3%;
 }
@@ -691,17 +687,11 @@ a.anchor {
 
 .location-container {
   width: 80%;
-  max-width: 800px;
   height: auto;
-}
-
-.location-info-container {
-    align-items: flex-start;
 }
 
 .location-club-container {
   width: 100%;
-  max-width: 350px;
   height: auto;
 }
 
@@ -940,14 +930,14 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-
-
-.banner {
+.banner-img-fixed {
+  width: 66%;
+  height: 60%;
   max-height: 800px;
-}
-
-.banner-container {
-  max-height: 800px;
+  position: absolute;
+  z-index: 10;
+  /*padding-top: 50%;
+  padding-bottom: 50%;*/
 }
 
 .banner-img-fixed img {
@@ -1044,8 +1034,8 @@ a.contact-top-btn {
     position: relative;
     min-height: 80px;
     height: 8vh;
-    width: 50%;
-    max-width: 500px;
+    width: 35%;
+    max-width: 300px;
     opacity: 1;
     background-color: transparent;
     top: 0;
@@ -1154,13 +1144,4 @@ a.contact-top-btn {
     height: auto;
     justify-content: space-around;
   }
-
-.location-info-container {
-  justify-content: space-between;
-}
-
-.location-address-container {
-  margin: 0;
-}
-  
 }
