@@ -429,6 +429,7 @@ a.anchor {
 
 .events-info-container h4 {
   margin-bottom: .5em;
+  font-size: 1.2em;
 }
 
 .event-details {
@@ -439,13 +440,13 @@ a.anchor {
 .event-details {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 .event-p p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: .8em;
+  font-size: 1em;
   width: 80%;
 }
 
