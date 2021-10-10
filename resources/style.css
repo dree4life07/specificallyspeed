@@ -1042,8 +1042,8 @@ a.contact-top-btn {
     position: relative;
     min-height: 80px;
     height: 8vh;
-    width: 35%;
-    max-width: 300px;
+    width: 50%;
+    max-width: 500px;
     opacity: 1;
     background-color: transparent;
     top: 0;
