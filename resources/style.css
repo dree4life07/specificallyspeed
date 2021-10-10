@@ -525,7 +525,7 @@ a.anchor {
 
 .schedule-time {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .schedule-activity {
@@ -647,6 +647,100 @@ a.anchor {
   color: #000;
 }
 /************************************************       END REGISTER */
+
+
+
+
+
+/************************************************       LOCATION */
+.location {
+  width: auto;
+  height: 100%;
+  background-image: url('images/nona2.jpg');
+  background-size: 320%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.location-container {
+  width: 80%;
+  height: auto;
+}
+
+.location-club-container {
+  width: 100%;
+  height: auto;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+.location-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: .8em;
+  color: whitesmoke;
+}
+
+.location-info {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-top: .8em;
+  color: whitesmoke;
+}
+
+.nona-logo {
+  width: 100%;
+  height: auto;
+  margin-top: .8em;
+}
+
+.nona-logo img {
+  width: 8em;
+}
+
+.google-btn-container {
+  width: 132px;
+  height: auto;
+}
+
+.google-btn {
+  width: auto;
+  height: auto;
+  border: 2px solid #34b8e7;
+  padding: .15em .8em .3em .8em;
+}
+
+.google-btn a {
+  margin-top: 2em;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: .9em;
+  color: whitesmoke;
+}
+
+.google-btn a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.google-btn a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/************************************************       END LOCATION */
+
+
+
+
+
+/************************************************       SPONSERS */
+
+/************************************************       END SPONSERS */
 
 
 
