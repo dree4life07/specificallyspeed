@@ -782,9 +782,68 @@ a.anchor {
 
 
 /************************************************       FOOTER */
-footer {
-  font-size: .8em;
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  width: 80%;
+  height: auto;
+}
+
+footer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: .6em;
   font-weight: 300;
+}
+
+footer a {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.contact-top-btn {
+  margin-bottom: 1em;
+}
+
+a.contact-top-btn {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-chevron-up {
+  width: 100%;
+  font-size: 1.2em;
+  text-align: center;
+  /*background-color: darkturquoise;*/
+}
+
+.contact-top-btn p {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  /*background-color: deeppink;*/
+}
+
+.footer-container-info {
+  width: 100%;
+  height: auto;
+  align-content: space-between;
+}
+
+.copy {
+  width: 50%;
+  height: auto;
+}
+
+.created {
+  width: 50%;
+  height: auto;
+  text-align: right;
 }
 /************************************************       END FOOTER */
 /********************************************************************     END XXXpx-375px */
