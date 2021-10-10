@@ -1134,5 +1134,10 @@ a.contact-top-btn {
 
 /********************************************************************     1000px-XXXpx */
 @media only screen and (min-width: 1000px) {
-  
+  .banner2-img-container {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    justify-content: space-around;
+  }
 }
