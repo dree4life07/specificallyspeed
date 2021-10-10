@@ -952,9 +952,9 @@ a.contact-top-btn {
   z-index: 10;
 }*/
 
-/*.banner-img-fixed img {
+.banner-img-fixed img {
   max-width: 450px;
-}*/
+}
 
 .banner-img img {
   width: auto;
