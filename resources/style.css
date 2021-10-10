@@ -49,6 +49,10 @@ body {
   margin-bottom: 1em;
 }
 
+.margin-bottom08 {
+  margin-bottom: .08em;
+}
+
 .padding-bottom1 {
   padding-bottom: 1em;
 }
@@ -377,7 +381,13 @@ a.anchor {
 }
 
 .headline {
-  width: auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.headline-inner-container {
+  width: fit-content;
   height: auto;
 }
 
