@@ -894,3 +894,273 @@ a.contact-top-btn {
 
 
 
+/********************************************************************     375px-500px */
+@media only screen and (min-width: 375px) {
+
+  /************************************************        NAV */
+  .nav-container {
+    width: 84%;
+  }
+  /************************************************       END NAV */
+
+
+
+
+  /************************************************       BANNER */
+  
+  /************************************************       END BANNER */
+
+
+
+
+  /************************************************       WORK */
+  
+  /************************************************       END WORK */
+
+
+
+
+    /************************************************       PROCESS */
+    
+    /************************************************       END PROCESS */
+}
+/********************************************************************     END 400px-500px */
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+/********************************************************************     500px-767px */
+@media only screen and (min-width: 500px) {
+/************************************************       BANNER */
+
+
+.banner {
+  max-height: 800px;
+}
+
+.banner-container {
+  max-height: 800px;
+}
+
+/*.banner-img-fixed img {
+  max-width: 450px;
+}*/
+
+.banner-img img {
+  width: auto;
+  height: 75%;
+}
+
+.banner2-img-container {
+  align-items: center;
+}
+
+.banner2-img1, .banner2-img2, .banner2-img3 {
+  max-width: 300px;
+  margin-left: 84px;
+  margin-right: 84px;
+  /*background-color: gainsboro;*/
+  /*z-index: 3;*/ 
+}
+
+
+/************************************************       END BANNER */
+
+
+
+
+/************************************************       BANNER2 */
+
+/************************************************       END BANNER2 */
+
+
+
+
+
+/************************************************       REGISTER */
+.register-price-container {
+  width: 100%;
+  height: auto;
+}
+/************************************************       END REGISTER */
+
+}
+/********************************************************************     END 500px-767px */
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+/********************************************************************     768px-XXXpx */
+@media only screen and (min-width: 768px) {
+  html.nav-active .links-container, html.nav-active li {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+
+  a.anchor {
+    top: -7.9vh;
+  }
+
+  /************************************************      NAV-CONTAINER */
+  .nav-container {
+    max-width: 1000px;
+    padding: 0;
+    /*padding: 0 8%;*/
+    /*background-color: lightgreen;*/
+  }
+
+  .logo-area {
+    position: relative;
+  }
+
+  .links-container {
+    display: inline-flex;
+    justify-content: space-between;
+    /*position: absolute;*/
+    position: relative;
+    min-height: 80px;
+    height: 8vh;
+    width: 50%;
+    max-width: 500px;
+    opacity: 1;
+    background-color: transparent;
+    top: 0;
+    /*left: 65%;*/
+    /*background-color: tomato;*/
+  }
+
+  .nav-links {
+    /*display: flex;
+    align-items: center;*/
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    /*background-color: sienna;*/
+  }
+
+  .nav-links li {
+    /*display: inline-flex;*/
+    opacity: 1;
+  }
+
+  .nav-links li a {
+    font-size: 1em;
+    /*position: relative;*/
+    top: -5px;
+    /*background-color: seagreen;*/
+  }
+
+          /***************************************      MENU UNDERLINE */
+          /*.work-link {
+            border-bottom: solid 5px #6bc39e;
+            display: inline-block;
+            height: 1.7em;
+        }
+
+        .process-link {
+            border-bottom: solid 5px #ee4826;
+            display: inline-block;
+            height: 1.7em;
+        }
+
+        .contact-link {
+            border-bottom: solid 5px #f7b539;
+            display: inline-block;
+            height: 1.7em;
+        }*/
+        /***************************************      MENU UNDERLINE */
+
+        .burger {
+          display: none;
+        }
+  /************************************************      END NAV-CONTAINER */
+
+
+
+
+  /************************************************      BANNER */
+   
+  /************************************************      END BANNER */
+
+
+
+
+  /************************************************       WORK */
+  .banner2-img-container {
+    justify-content: space-around;
+  }
+  .banner2-img1, .banner2-img2, .banner2-img3 {
+    margin-left: 0;
+    margin-right: 0;
+    /*background-color: gainsboro;*/
+    /*z-index: 3;*/ 
+  }
+
+  .img2-p {
+    max-width: 400px;
+  }
+  /************************************************       END WORK */
+
+
+
+
+  /************************************************       PROCESS */
+
+/************************************************       END PROCESS */
+}
+/********************************************************************     END 768px-XXXpx */
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+
+
+
+/********************************************************************     1000px-XXXpx */
+@media only screen and (min-width: 1000px) {
+  .banner2-img-container {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    justify-content: space-around;
+  }
+
+.location-info-container {
+  justify-content: space-between;
+}
+
+.location-address-container {
+  margin: 0;
+}
+  
+}
