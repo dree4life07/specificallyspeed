@@ -942,7 +942,7 @@ a.contact-top-btn {
 .banner-img-fixed {
   width: 66%;
   height: 60%;
-  max-height: 800px;
+  /*max-height: 800px;*/
   position: absolute;
   z-index: 10;
   /*padding-top: 50%;
