@@ -358,8 +358,8 @@ a.anchor {
 }
 
 .img2-p {
-  /*width: 80%;*/
-  /*max-width: 350px;*/
+  width: 80%;
+  max-width: 500px;
   height: auto;
   position: absolute;
   padding: 0 15%;
@@ -383,7 +383,6 @@ a.anchor {
 .events-container {
   width: 100%;
   height: auto;
-  background-color: violet;
 }
 
 .headline {
@@ -395,7 +394,6 @@ a.anchor {
 .headline-inner-container {
   width: 100%;
   height: auto;
-  background-color: teal;
 }
 
 .headline-underline {
