@@ -689,11 +689,17 @@ a.anchor {
 
 .location-container {
   width: 80%;
+  max-width: 800px;
   height: auto;
+}
+
+.location-info-container {
+    align-items: flex-start;
 }
 
 .location-club-container {
   width: 100%;
+  max-width: 350px;
   height: auto;
 }
 
@@ -1146,4 +1152,10 @@ a.contact-top-btn {
     height: auto;
     justify-content: space-around;
   }
+
+.location-address-container {
+  justify-content: space-between;
+  margin: 0;
+}
+  
 }
