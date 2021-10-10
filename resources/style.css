@@ -1153,8 +1153,11 @@ a.contact-top-btn {
     justify-content: space-around;
   }
 
-.location-address-container {
+.location-info-container {
   justify-content: space-between;
+}
+
+.location-address-container {
   margin: 0;
 }
   
