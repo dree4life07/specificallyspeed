@@ -404,6 +404,7 @@ a.anchor {
 
  .events-img-container {
    width: 80%;
+   max-width: 800px;
    height: auto;
  }
  
@@ -438,6 +439,7 @@ a.anchor {
  
 .events-info-container {
   width: 80%;
+  max-width: 800px;
   height: auto;
   margin-left: 3%;
 }
