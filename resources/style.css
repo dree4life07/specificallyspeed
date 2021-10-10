@@ -1109,6 +1109,10 @@ a.contact-top-btn {
     /*background-color: gainsboro;*/
     /*z-index: 3;*/ 
   }
+
+  .img2-p {
+    max-width: 400px;
+  }
   /************************************************       END WORK */
 
 
