@@ -393,7 +393,7 @@ a.anchor {
 }
 
 .headline-inner-container {
-  width: 100%;
+  width: fit-content;
   height: auto;
   background-color: teal;
 }
