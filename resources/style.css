@@ -358,7 +358,7 @@ a.anchor {
 }
 
 .img2-p {
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   height: auto;
   position: absolute;
@@ -1117,10 +1117,6 @@ a.contact-top-btn {
     margin-right: 0;
     /*background-color: gainsboro;*/
     /*z-index: 3;*/ 
-  }
-
-  .img2-p {
-    /*max-width: 400px;*/
   }
   /************************************************       END WORK */
 
