@@ -305,8 +305,8 @@ a.anchor {
   }
 
 .banner-img img {
-  width: auto;
-  height: 66%;
+  width: 85%;
+  height: auto;
   max-width: 450px;
   /*margin-top: 15%;*/
   z-index: 1;
