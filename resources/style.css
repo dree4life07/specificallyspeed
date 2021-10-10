@@ -359,10 +359,10 @@ a.anchor {
 
 .img2-p {
   /*width: 80%;*/
-  /*max-width: 350px;*/
+  max-width: 350px;
   height: auto;
   position: absolute;
-  padding: 0 15%;
+  padding: 0 10%;
   text-align: center;
   align-items: center;
   font-size: 1em;
@@ -382,8 +382,8 @@ a.anchor {
 
 .events-container {
   width: 100%;
+  max-width: 1000px;
   height: auto;
-  background-color: violet;
 }
 
 .headline {
@@ -395,7 +395,6 @@ a.anchor {
 .headline-inner-container {
   width: fit-content;
   height: auto;
-  background-color: teal;
 }
 
 .headline-underline {
