@@ -273,7 +273,7 @@ a.anchor {
 
 .banner-img-container {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /*.banner-spacer {
@@ -292,10 +292,6 @@ a.anchor {
   padding-bottom: 42%;*/
 }
 
-.banner-img-fixed img {
-  max-width: 350px;
-}
-
 .banner-img {
   /*background-image: url('images/banner_background.png');
   background-size: 150%;
@@ -309,9 +305,8 @@ a.anchor {
   }
 
 .banner-img img {
-  width: 85%;
-  height: auto;
-  max-width: 450px;
+  width: auto;
+  height: 66%;
   /*margin-top: 15%;*/
   z-index: 1;
 }
@@ -944,13 +939,15 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-/*.banner-img-fixed {
+.banner-img-fixed {
   width: 66%;
   height: 60%;
   max-height: 800px;
   position: absolute;
   z-index: 10;
-}*/
+  /*padding-top: 50%;
+  padding-bottom: 50%;*/
+}
 
 .banner-img-fixed img {
   max-width: 450px;
