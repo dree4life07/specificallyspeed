@@ -358,7 +358,7 @@ a.anchor {
 }
 
 .img2-p {
-  width: 80%;
+  /*width: 80%;*/
   max-width: 350px;
   height: auto;
   position: absolute;
