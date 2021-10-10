@@ -739,7 +739,22 @@ a.anchor {
 
 
 /************************************************       SPONSERS */
+.sponsers {
+  width: 100%;
+  height: auto;
+  background-color: #34b8e7;
+}
 
+.sponsers-container {
+  width: 80%;
+  height: auto;
+}
+
+.logo-container {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
 /************************************************       END SPONSERS */
 
 
