@@ -625,7 +625,7 @@ a.anchor {
   width: auto;
   height: auto;
   border: 2px solid #34b8e7;
-  padding: .1em .8em .3em .8em;
+  padding: .15em .8em .3em .8em;
 }
 
 .register-btn a {
@@ -633,7 +633,7 @@ a.anchor {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: .7em;
+  font-size: .9em;
   color: #000;
 }
 
