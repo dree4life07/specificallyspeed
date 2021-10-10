@@ -940,14 +940,14 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-.banner-img-fixed {
-  width: 66%;
-  height: 60%;
+
+
+.banner {
   max-height: 800px;
-  position: absolute;
-  z-index: 10;
-  /*padding-top: 50%;
-  padding-bottom: 50%;*/
+}
+
+.banner-container {
+  max-height: 800px;
 }
 
 .banner-img-fixed img {
