@@ -785,6 +785,7 @@ a.anchor {
 .footer {
   width: 100%;
   height: auto;
+  background-color: #000;
 }
 
 .footer-container {
@@ -800,7 +801,7 @@ footer p {
 
 footer a {
   font-family: 'Poppins', sans-serif;
-  color: #000;
+  color: whitesmoke;
 }
 
 .contact-top-btn {
@@ -812,7 +813,7 @@ a.contact-top-btn {
   height: auto;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: whitesmoke
 }
 
 .fa-chevron-up {
@@ -838,12 +839,14 @@ a.contact-top-btn {
 .copy {
   width: 50%;
   height: auto;
+  color: whitesmoke;
 }
 
 .created {
   width: 50%;
   height: auto;
   text-align: right;
+  color: whitesmoke;
 }
 /************************************************       END FOOTER */
 /********************************************************************     END XXXpx-375px */
