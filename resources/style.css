@@ -751,9 +751,29 @@ a.anchor {
 }
 
 .logo-container {
-  width: 100%;
+  width: 50%;
   height: auto;
   align-items: center;
+}
+
+.nona {
+  width: 8em;
+  height: auto;
+}
+
+.edge {
+  width: 8em;
+  height: auto;
+}
+
+.technogym {
+  width: 8em;
+  height: auto;
+}
+
+.underarmour {
+  width: 6em;
+  height: auto;
 }
 /************************************************       END SPONSERS */
 
