@@ -615,6 +615,37 @@ a.anchor {
   font-weight: 400;
   font-size: .7em;
 }
+
+.register-btn-container {
+  width: 100%;
+  height: auto;
+}
+
+.register-btn {
+  width: auto;
+  height: auto;
+  border: 2px solid #34b8e7;
+  padding: .1em .8em .3em .8em;
+}
+
+.register-btn a {
+  margin-top: 2em;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: .7em;
+  color: #000;
+}
+
+.register-btn a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.register-btn a:visited {
+  text-decoration: none;
+  color: #000;
+}
 /************************************************       END REGISTER */
 
 
