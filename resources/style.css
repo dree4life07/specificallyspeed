@@ -707,7 +707,7 @@ a.anchor {
   width: auto;
   height: 100%;
   background-image: url('images/nona2.jpg');
-  background-size: 340%;
+  background-size: 370%;
   background-repeat: no-repeat;
   background-position: 50%;
   overflow: hidden;
@@ -1036,6 +1036,10 @@ a.contact-top-btn {
 }
 /************************************************       END EcHEDuLE */
 
+.location {
+  background-size: 300%;
+}
+
 }
 /********************************************************************     END 500px-767px */
 
@@ -1195,6 +1199,9 @@ a.contact-top-btn {
     margin-top: 0;
   }
 /************************************************       END PROCESS */
+.location {
+  background-size: 140%;
+}
 }
 /********************************************************************     END 768px-XXXpx */
 
@@ -1236,6 +1243,9 @@ a.contact-top-btn {
   .banner2-img1, .banner2-img2 {
     margin-right: 0;
     margin-bottom: 0;
+  }
+  .location {
+    background-size: 100%;
   }
 }
 /********************************************************************     1200px-XXXpx */
