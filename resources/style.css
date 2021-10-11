@@ -986,7 +986,9 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-
+.banner-img {
+  background-position: 50% 50%;
+}
 
 .banner-img img {
   width: auto;
@@ -1139,6 +1141,9 @@ a.contact-top-btn {
 
 
   /************************************************      BANNER */
+.banner-img {
+  background-size: 120%;
+}
    .banner2-img1 {
      margin-right: 1em;
    }
@@ -1204,6 +1209,9 @@ a.contact-top-btn {
 
 /********************************************************************     1000px-XXXpx */
 @media only screen and (min-width: 1000px) {
+  .banner-img {
+    background-size: 100%;
+  }
   .banner2-img-container {
     width: 100%;
     max-width: 950px;
@@ -1214,5 +1222,29 @@ a.contact-top-btn {
   .banner2-img1, .banner2-img2 {
     margin-right: 0;
     margin-bottom: 0;
+  }
+}
+/********************************************************************     1200px-XXXpx */
+@media only screen and (min-width: 1200px) {
+  .banner-img {
+    background-size: 80%;
+  }
+}
+/********************************************************************     1500px-XXXpx */
+@media only screen and (min-width: 1500px) {
+  .banner-img {
+    background-size: 70%;
+  }
+}
+/********************************************************************     1800px-XXXpx */
+@media only screen and (min-width: 1800px) {
+  .banner-img {
+    background-size: 60%;
+  }
+}
+/********************************************************************     2200px-XXXpx */
+@media only screen and (min-width: 2200px) {
+  .banner-img {
+    background-size: 50%;
   }
 }
