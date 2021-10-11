@@ -425,6 +425,7 @@ a.anchor {
 
  .events-img-container {
    width: 80%;
+   max-width: 950px;
    height: auto;
  }
  
@@ -459,6 +460,7 @@ a.anchor {
  
 .events-info-container {
   width: 80%;
+  max-width: 950px;
   height: auto;
   margin-left: 3%;
 }
@@ -550,6 +552,12 @@ a.anchor {
   width: 100%;
   height: auto;
   background-color: #34b8e7;
+}
+
+.schedule-container {
+  width: 100%;
+  max-width: 950px;
+  height: auto;
 }
 
 .headline-underline-white {
@@ -720,6 +728,12 @@ a.anchor {
   color: whitesmoke;
 }
 
+.location-address-container {
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+}
+
 .location-bold {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -789,13 +803,34 @@ a.anchor {
 
 .sponsers-container {
   width: 80%;
+  max-width: 450px;
   height: auto;
 }
 
-.logo-container {
+.logo-container1 {
   width: 50%;
-  height: auto;
+  height: 80px;
   align-items: center;
+}
+
+.logo-container2 {
+  width: 50%;
+  height: 80px;
+  align-items: center;
+}
+
+.logo-container3 {
+  width: 50%;
+  height: 80px;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.logo-container4 {
+  width: 50%;
+  height: 80px;
+  align-items: center;
+  margin-top: 1em;
 }
 
 .nona {
@@ -1067,6 +1102,10 @@ a.contact-top-btn {
     /*background-color: seagreen;*/
   }
 
+  .nav-links a:hover {
+      color: #34b8e7;
+  }
+
           /***************************************      MENU UNDERLINE */
           /*.work-link {
             border-bottom: solid 5px #6bc39e;
@@ -1116,7 +1155,26 @@ a.contact-top-btn {
 
 
   /************************************************       PROCESS */
+  .sponsers-container {
+    max-width: 950px;
+  }
+  .logo-container1 {
+    width: 25%;
+  }
 
+  .logo-container2 {
+    width: 25%;
+  }
+
+  .logo-container3 {
+    width: 25%;
+    margin-top: 0;
+  }
+
+  .logo-container4 {
+    width: 25%;
+    margin-top: 0;
+  }
 /************************************************       END PROCESS */
 }
 /********************************************************************     END 768px-XXXpx */
@@ -1131,6 +1189,17 @@ a.contact-top-btn {
 
 
 
+
+/********************************************************************     900px-XXXpx */
+@media only screen and (min-width: 900px) {
+  .location-info-container {
+    justify-content: space-between;
+  }
+  .location-club-container, .location-address-container {
+    max-width: 45%;
+    margin-top: 0;
+  }
+}
 
 
 /********************************************************************     1000px-XXXpx */
