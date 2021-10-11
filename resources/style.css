@@ -579,7 +579,7 @@ a.anchor {
 .schedule-activity {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
 }
 
 .section {
@@ -1021,6 +1021,20 @@ a.contact-top-btn {
   height: auto;
 }
 /************************************************       END REGISTER */
+
+
+
+
+
+/************************************************       SCHEDULE */
+.schedule {
+  display: flex;
+}
+
+.schedule-activity {
+  margin-left: 40px;
+}
+/************************************************       END EcHEDuLE */
 
 }
 /********************************************************************     END 500px-767px */
