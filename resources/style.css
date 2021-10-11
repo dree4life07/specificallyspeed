@@ -329,14 +329,16 @@ a.anchor {
 
 .banner2-img-container {
   width: 80%;
-  max-width: 800px;
+  max-width: 624px;
   height: auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #34b8e7;
 }
 
 .banner2-img1, .banner2-img2, .banner2-img3 {
   width: 100%;
   height: auto;
+  max-width: 300px;
   /*background-color: gainsboro;*/
   /*z-index: 3;*/ 
 }
@@ -358,15 +360,25 @@ a.anchor {
 }
 
 .banner2-img2 {
-  align-items: center;
+  position: relative;
+  text-align: center;
 }
 
-.img2-p {
-  /*width: 80%;*/
-  max-width: 350px;
+/*.banner2-img2-p-container {
+  width: 100%;
+  max-width: 300px;
+  height: 205px;
+  position: absolute;
+}*/
+
+.banner2-img2-text {
+  width: 80%;
+  max-width: 300px;
   height: auto;
   position: absolute;
-  padding: 0 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   align-items: center;
   font-size: 1em;
@@ -934,19 +946,7 @@ a.contact-top-btn {
 /********************************************************************     500px-767px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
-.banner-img-fixed {
-  width: 66%;
-  height: 60%;
-  max-height: 800px;
-  position: absolute;
-  z-index: 10;
-  /*padding-top: 50%;
-  padding-bottom: 50%;*/
-}
 
-.banner-img-fixed img {
-  max-width: 450px;
-}
 
 .banner-img img {
   width: auto;
@@ -957,14 +957,6 @@ a.contact-top-btn {
   align-items: center;
 }
 
-.banner2-img1, .banner2-img2, .banner2-img3 {
-  max-width: 300px;
-  margin-left: 84px;
-  margin-right: 84px;
-  /*background-color: gainsboro;*/
-  /*z-index: 3;*/ 
-}
-
 
 /************************************************       END BANNER */
 
@@ -972,7 +964,9 @@ a.contact-top-btn {
 
 
 /************************************************       BANNER2 */
-
+.banner2-img1, .banner2-img2, .banner2-img3 {
+  /*max-width: 125px;*/
+}
 /************************************************       END BANNER2 */
 
 
@@ -1105,11 +1099,12 @@ a.contact-top-btn {
 
   /************************************************       WORK */
   .banner2-img-container {
-    justify-content: space-around;
+    
   }
   .banner2-img1, .banner2-img2, .banner2-img3 {
     margin-left: 0;
     margin-right: 0;
+
     /*background-color: gainsboro;*/
     /*z-index: 3;*/ 
   }
