@@ -328,14 +328,14 @@ a.anchor {
 }
 
 .banner2-img-container {
-  width: 100%;
+  width: 80%;
   max-width: 800px;
   height: auto;
   justify-content: space-around;
 }
 
 .banner2-img1, .banner2-img2, .banner2-img3 {
-  width: 80%;
+  width: 100%;
   height: auto;
   /*background-color: gainsboro;*/
   /*z-index: 3;*/ 
