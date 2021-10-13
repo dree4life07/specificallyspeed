@@ -668,17 +668,23 @@ a.anchor {
 
 .register-btn-container {
   width: 100%;
-  height: auto;
+  max-width: 300px;
+
 }
 
-.register-btn {
-  width: auto;
+.register-btn, .payment-btn {
+  width: 200px;
   height: auto;
   border: 2px solid #34b8e7;
-  padding: .15em .8em .3em .8em;
+  padding: .3em 0 .3em 0;
+  text-align: center;
 }
 
-.register-btn a {
+.payment-btn {
+  margin-top: 1em;
+}
+
+.register-btn a, .payment-btn a {
   margin-top: 2em;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -687,15 +693,16 @@ a.anchor {
   color: #000;
 }
 
-.register-btn a:link {
+.register-btn a:link, .payment-btn a:link {
   text-decoration: none;
   color: #000;
 }
 
-.register-btn a:visited {
+.register-btn a:visited, .payment-btn a:visited {
   text-decoration: none;
   color: #000;
 }
+
 /************************************************       END REGISTER */
 
 
@@ -953,7 +960,7 @@ a.contact-top-btn {
 
 
   /************************************************       BANNER */
-  
+
   /************************************************       END BANNER */
 
 
@@ -1020,6 +1027,7 @@ a.contact-top-btn {
   width: 100%;
   height: auto;
 }
+
 /************************************************       END REGISTER */
 
 
@@ -1051,7 +1059,16 @@ a.contact-top-btn {
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 
+@media only screen and (min-width: 600px) {
+.register-btn-container {
+  max-width: 475px;
+  justify-content: space-between;
+}
 
+.payment-btn {
+  margin-top: 0;
+}
+}
 
 
 /********************************************************************     768px-XXXpx */
