@@ -10,9 +10,6 @@ html, .smooth-scroll {
   scroll-behavior: smooth;
 }
 
-body {
-}
-
 .resize-animation-stopper * {
   transition: none !important;
   animation: none !important;
@@ -341,9 +338,6 @@ a.anchor {
   /*background-color: gainsboro;*/
   /*z-index: 3;*/ 
 }
-.banner2-img1 {
-
-}
 
 .banner2-img1, .banner2-img2 {
   margin-bottom: 1em;
@@ -430,22 +424,23 @@ a.anchor {
  }
  
 
- .event-date {
+ /*.event-date {
    width: auto;
    height: auto;
    background-color: #34b8e7;
    padding: 5px 9px;
    position:absolute;
    z-index: 5; 
- }
+   left: 8%;
+ }*/
 
-.event-img-date {
+/*.event-img-date {
    font-size: 1em;
    font-weight: 600;
    text-align: center;
    line-height: 1.1;
    color: whitesmoke;
- }
+ }*/
 
  .event-img {
    width: 100%;
@@ -455,8 +450,69 @@ a.anchor {
  .event-img img {
   width: 100%;
   height: auto;
-  margin: 2% 0 0 2%;
+  /*margin: 2% 0 0 2%;*/
  }
+
+ #myImg:hover {
+   opacity: 0.7;
+  }
+
+  #myImg {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 6; /* Sit on top */
+  padding-top: 150px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 950px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 90px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
  
 .events-info-container {
   width: 80%;
@@ -1039,9 +1095,7 @@ a.contact-top-btn {
 
 
 /************************************************       BANNER2 */
-.banner2-img1, .banner2-img2, .banner2-img3 {
-  /*max-width: 125px;*/
-}
+
 /************************************************       END BANNER2 */
 
 
@@ -1213,9 +1267,17 @@ a.contact-top-btn {
 
 
 
-  /************************************************       WORK */
+  /************************************************       EVENT PHOTO */
+  #myImg:hover {
+    opacity: 1;
+   }
+ 
+   #myImg {
+     cursor: default;
+     transition: 0.3s;
+   }
 
-  /************************************************       END WORK */
+  /************************************************       END EVENT PHOTO */
 
 
 
@@ -1245,6 +1307,10 @@ a.contact-top-btn {
 .location {
   background-size: 140%;
 }
+
+
+
+
 }
 /********************************************************************     END 768px-XXXpx */
 
