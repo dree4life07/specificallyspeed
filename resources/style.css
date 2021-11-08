@@ -466,7 +466,7 @@ a.anchor {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 6; /* Sit on top */
+  z-index: 21; /* Sit on top */
   padding-top: 150px; /* Location of the box */
   left: 0;
   top: 0;
