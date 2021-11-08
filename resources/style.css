@@ -518,7 +518,7 @@ a.anchor {
   width: 80%;
   max-width: 950px;
   height: auto;
-  margin-left: 3%;
+  /*margin-left: 3%;*/
 }
 
 .events-info-container h4 {
