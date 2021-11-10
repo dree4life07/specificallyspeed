@@ -19,8 +19,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        
+
+        
     </head>
 
     <body>
@@ -33,8 +36,8 @@
                 </div>
                     <div class="links-container flex-center">
                         <ul class="nav-links flex">
-                            <li><a class="events-link" href="#events-c">EVENTS</a></li>
-                            <li><a class="schedule-link" href="#schedule-c">CAMP SCHEDULE</a></li>
+                            <li><a class="events-link" href="#aboutus-c">ABOUT US</a></li>
+                            <li><a class="schedule-link" href="#events-c">EVENTS</a></li>
                             <li><a class="register-link" href="#register-c">REGISTER</a></li>
                             <li><a class="location-link" href="#location-c">LOCATION</a></li>
                         </ul>
@@ -51,15 +54,12 @@
             <div class="banner-container flex">
                 <div class="banner-img-container flex-center">
 
-
-                    
                     <!--<div class="banner-spacer"></div>-->
                     <div class="banner-logo-container flex-center">
                         <div class="banner-logo flex-center">
                             <img src="resources/images/meadows-logo.svg">
                         </div>
                     </div>
-
 
                     <div class="banner-img flex-center">
                         <img src="resources/images/banner_people.png">
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div class="banner2 flex-center">
+        <!--<div class="banner2 flex-center">
             <div class="banner2-img-container flex-center margin-top2 margin-bottom2">
                 <div class="banner2-img1">
                     <img src="resources/images/banner2-img3.jpg">
@@ -86,6 +86,126 @@
                 </div>
 
             </div>
+        </div>-->
+
+        <a class="anchor" id="aboutus-c"><div class="about-us flex-center"></a>
+            <div class="about-us-container flex-center margin-top2 margin-bottom2">
+                
+                <div class="headline flex-center margin-bottom2">
+                    <div class="headline-inner-container">
+                        <h2>ABOUT SPEED</h2>
+                        <div class="headline-underline"></div>
+                    </div>
+                </div>
+
+                <div class="about-us-inner-container flex-center margin-bottom2">
+                    <div class="about-us-img">
+                        <!--<img class="no-show" src="resources/images/about-kyle-img.jpg" alt="Kyle Meadows">-->
+                    </div>
+
+                    <div class="about-us-info">
+                        <p class="about-first-p">Speed provides developmental systems for high-performance athletes.
+                            Our programs are designed to improve athletic performance with a focus on speed, 
+                            biomechanics, and sports specific training.
+                        </p>
+                        <p class="margin-top1">We have an extensive track record in working with young prepubescent athletes, 
+                            all the way up to NFL Pro athletes. We prepare players for the NFL Combine and
+                            Pro-Days, as well as many Olympic caliber athletes in other fields.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-us-services-container flex-center">
+
+                    <div class="headline flex-center margin-bottom2">
+                        <div class="headline-inner-container">
+                            <h2>OUR SERVICES</h2>
+                            <div class="headline-underline"></div>
+                        </div>
+                    </div>
+
+                    <div class="about-athletic-training flex-center">
+                        <div class="services-inner-container margin-top2">
+                            <h4>ATHLETIC TRAINING</h4>
+                            <p class="margin-top08">Our experts plan customized training programs based on in-depth
+                                knowledge of an athlete's actual potential and physical condition.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-speed-training flex-center">
+                        <div class="services-inner-container margin-top2">
+                            <h4>SPEED TRAINING</h4>
+                            <p class="margin-top08">We specialize in increasing speed through biomechanics, neuromuscular 
+                                development and focusing on the true metrics of running faster.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-online-training flex-center">
+                        <div class="services-inner-container margin-top2">
+                            <h4>ONLINE TRAINING</h4>
+                            <p class="margin-top08">Virtual training is a necessity in current times. We offer onine training
+                                that feataures video exchange, video breakdown, analysis, and voice-over
+                                feedback.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-nfl-prep flex-center">
+                        <div class="services-inner-container margin-top2">
+                            <h4>NFL PREP</h4>
+                            <p class="margin-top08">We believe in giving athletes an unparalleled advantage by using
+                                speed measurements, sports science, motion analysis, and top-notch 
+                                skills training for all positions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="numbers flex-center">
+            <div class="numbers-container flex-center">
+                
+                <div class="headline flex-center margin-bottom2">
+                    <div class="headline-inner-container margin-top2">
+                        <h2>IT'S ALL IN THE NUMBERS</h2>
+                        <div class="headline-underline-white"></div>
+                    </div>
+                </div>
+
+                <div class="numbers-inner-container flex-center">
+                    <div class="numbers-photos flex-center margin-bottom2">
+
+                        <div class="carousel margin-bottom1" data-flickity>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="numbers-info margin-bottom2">
+                        <p class="numbers-info-p">How can you make an assessment and effect a performance change without baseline 
+                            information? We’re not talking about measuring a 40 with a stopwatch. We’re 
+                            talking about true measurements of speed and change of direction. Measurements 
+                            of stride length, stride frequency, meters per second, ground contact time, rate 
+                            of acceleration, and deceleration are all critical.
+                        </p>
+                        <p class="numbers-info-p margin-top08">How do you effect a physiological change when you only have the player for 6, 8,
+                             or 12 weeks? Others might say it’s no problem, but it is a challenge. Through 
+                             S.P.E.E.D., we effect change in the shortest time possible. Our metrics remove 
+                             the subjectivity from development of human performance. We can demonstrate 
+                             actual results because we perform initial testing to establish baseline measures 
+                             and perform additional testing throughout the training period as well as the end, 
+                             so that change is measured.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <a class="anchor" id="events-c"><div class="events flex-center"></a>
@@ -97,71 +217,72 @@
                     </div>
                 </div>
 
-                <div class="events-img-container">
-                    <!--<div class="event-date">
-                        <p class="event-img-date">
-                            04<br>DEC
-                        </p>
-                    </div>-->
-                    <div class="event-img">
-                        <!-- Trigger the Modal -->
-                        <img id="myImg" src="resources/images/event-photo2.jpg" alt="Event Flyer">
+                <div class="events-inner-container flex-center margin-bottom2">
+                    <div class="events-img-container">
+                        <!--<div class="event-date">
+                            <p class="event-img-date">
+                                04<br>DEC
+                            </p>
+                        </div>-->
+                        <div class="event-img">
+                            <!-- Trigger the Modal -->
+                            <img id="myImg" src="resources/images/event-photo2.jpg" alt="Event Flyer">
 
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
 
-                        <!-- The Close Button -->
-                        <span class="close">&times;</span>
+                            <!-- The Close Button -->
+                            <span class="close">&times;</span>
 
-                        <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="img01">
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">
 
-                        <!-- Modal Caption (Image Text)
-                        <div id="caption"></div> -->
+                            <!-- Modal Caption (Image Text)
+                            <div id="caption"></div> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-            <div class="events-info-container margin-top08">
-                    <h4>
-                        SPEED DEVELOPMENT CAMP
-                    </h4>
-                    <p class="event-details">
-                        For youth in middle school to high school with guest appearances by 
-                        NFL veterans & Olympic sprinters. Science based power & speed 
-                        testing with Technogym treadmills allowing us to analyze speed 
-                        potential!
-                    </p>
-                        <div class="event-p">
-                                <div class="event-info-date-container flex">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    <p class="event-info-date">
-                                        December 4, 2021
-                                    </p>
-                                </div>
-                                <div class="event-info-time-container flex">
-                                    <i class="fas fa-clock"></i>
-                                    <p class="event-info-time">
-                                        9am - 1pm
-                                    </p>
-                                </div>
-                                <div class="event-info-location-container flex">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <p class="event-info-location">
-                                        Lake Nona Performance Center<br>
-                                        6775 Chopra Terrace, <span class="break"></span>Orlando, Florida 32827
-                                    </p>
-                                </div>
+                    
+                <div class="events-info-container">
+                        <h4>
+                            SPEED DEVELOPMENT CAMP
+                        </h4>
+                        
+                            <div class="event-p">
+                                    <div class="event-info-date-container flex">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <p class="event-info-date">
+                                            December 4, 2021
+                                        </p>
+                                    </div>
+                                    <div class="event-info-time-container flex">
+                                        <i class="fas fa-clock"></i>
+                                        <p class="event-info-time">
+                                            9am - 1pm
+                                        </p>
+                                    </div>
+                                    <div class="event-info-location-container flex">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p class="event-info-location">
+                                            Lake Nona Performance Club<br>
+                                            6775 Chopra Terrace,<br>Orlando, Florida 32827
+                                        </p>
+                                    </div>
 
-                                <div class="event-info-contact-container flex">
-                                    <i class="fas fa-envelope"></i>
-                                    <a href="mailto:info@speedspecific.com">Email Us!</a>
-                                </div>
+                                    <div class="event-info-contact-container flex">
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="mailto:info@speedspecific.com">Email Us!</a>
+                                    </div>
+                            </div>  
+                    </div>
 
-                        </div>
-                    <p class="event-details event-info-focus margin-bottom2">
-                        Focus on 20 yards, 3 point start instruction and analysis
+                    <p class="event-details event-info-focus">
+                        For youth in middle school to high school with guest appearances by NFL veterns 
+                        and Olympic sprinters. Science based power and speed testing with Technogym treadmills 
+                        allowing us to analyze your speed potential! Focus on 20 yards, 3 point start instruction 
+                        and analysis.
                     </p>
+
                 </div>
             </div>
         </div>
@@ -177,7 +298,7 @@
                 </div>
 
                 <div class="schedule-inner-container">
-                    <div class="schedule section first-section">
+                    <div class="schedule section first-section flex">
                         <p class="schedule-time">
                             08:30
                         </p>
@@ -363,15 +484,16 @@
                 </div>
 
                 <div class="footer-container-info flex-center">
-                    <p class="copy">&#169;2021 SPEED by Kyle Meadows</p>
+                    <p class="copy">&#169;2021 SPEED by <a href="mailto:kyle@speedspecific.com">Kyle Meadows</a></p>
                     <p class="created">Created by <a href="https://andreahiller.com/">Andrea Hiller</a></p>
                 </div>
             </div>
         </footer>
 
-        
 
         <script src="resources/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         
     </body>
     </html>

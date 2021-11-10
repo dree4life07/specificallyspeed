@@ -317,52 +317,51 @@ a.anchor {
 
 
 /************************************************       BANNER 2 */
-.banner2 {
+/*.banner2 {
   width: 100%;
   height: auto;
   background-color: #34b8e7;
   z-index: 2;
-}
+}*/
 
-.banner2-img-container {
+/*.banner2-img-container {
   width: 80%;
   max-width: 624px;
   height: auto;
   background-color: #34b8e7;
-}
+}*/
 
-.banner2-img1, .banner2-img2, .banner2-img3 {
+/*.banner2-img1, .banner2-img2, .banner2-img3 {
   width: 100%;
   height: auto;
-  max-width: 295px;
+  max-width: 295px;*/
   /*background-color: gainsboro;*/
   /*z-index: 3;*/ 
-}
+/*}*/
 
-.banner2-img1, .banner2-img2 {
+/*.banner2-img1, .banner2-img2 {
   margin-bottom: 1em;
-}
+}*/
 
-.banner2-img1 img {
+/*.banner2-img1 img {
   width: 100%;
   height: auto;
-}
+}*/
 
-
-.banner2-img2 img {
+/*.banner2-img2 img {
   width: 100%;
   height: auto;
-}
+}*/
 
-.banner2-img3 img {
+/*.banner2-img3 img {
   width: 100%;
   height: auto;
-}
+}*/
 
-.banner2-img2 {
+/*.banner2-img2 {
   position: relative;
   text-align: center;
-}
+}*/
 
 /*.banner2-img2-p-container {
   width: 100%;
@@ -371,7 +370,7 @@ a.anchor {
   position: absolute;
 }*/
 
-.banner2-img2-text {
+/*.banner2-img2-text {
   width: 88%;
   max-width: 295px;
   height: auto;
@@ -383,8 +382,142 @@ a.anchor {
   font-size: 1em;
   font-weight: 600;
   color: whitesmoke;
-}
+}*/
 /************************************************       END BANNER 2 */
+
+
+
+
+/************************************************       ABOUT */
+  .about-us {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us-inner-container {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-us-img {
+    background-image: url('images/about-kyle-img.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    width: 100%;
+    height: 362.8px;
+  }
+
+  /*.about-us-img img {
+    width: 100%;
+    height: auto;
+  }*/
+
+  .about-us-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  .about-first-p {
+    margin-top: 1em;
+  }
+
+        /*******************************************       SERVICES */
+        .about-us-services-container {
+          width: 80%;
+          height: auto;
+          justify-content: space-between;
+        }
+
+        .about-athletic-training, .about-speed-training, 
+        .about-online-training, .about-nfl-prep {
+          width: 100%;
+          height: auto;
+          margin-top: 1.6em;
+          background-color: #6ecaeb;
+        }
+
+        .services-inner-container {
+          width: 85%;
+          height: auto;
+          margin-bottom: 2em;
+        }
+
+        .services-inner-container h4 {
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .services-inner-container p {
+          font-family: 'Poppins', sans-serif;
+          font-size: 1em;
+        }
+        /*******************************************       SERVICES */
+
+        /*******************************************       CAROUSEL */
+        .numbers {
+          width: 100%;
+          height: auto;
+        }
+
+        .numbers-container {
+          width: 100%;
+          height: auto;
+          background-color: #34b8e7;
+        }
+
+        .numbers-inner-container {
+          width: 80%;
+          height: auto;
+        }
+
+        .numbers-photos {
+          width: 100%;
+          height: auto;
+          max-width: 900px;
+        }
+
+        .carousel {
+          width: 100%;
+          height: auto;
+          background: #EEE;
+        }
+        
+        .carousel-cell {
+          width: 100%;
+          height: 200px;
+          margin-right: 10px;
+          background: #8C8;
+          counter-increment: gallery-cell;
+        }
+        
+        /* cell number */
+        .carousel-cell:before {
+          display: block;
+          text-align: center;
+          content: counter(gallery-cell);
+          line-height: 200px;
+          font-size: 80px;
+          color: white;
+        }
+
+        .numbers-info {
+          width: 100%;
+          height: auto;
+          max-width: 900px;
+        }
+
+        .numbers-info p {
+          font-family: 'Poppins', sans-serif;
+        }
+        /*******************************************       CAROUSEL */
+/************************************************       END ABOUT */
+
 
 
 
@@ -397,6 +530,11 @@ a.anchor {
 
 .events-container {
   width: 100%;
+  height: auto;
+}
+
+.events-inner-container {
+  width: 80%;
   height: auto;
 }
 
@@ -418,8 +556,7 @@ a.anchor {
 }
 
  .events-img-container {
-   width: 80%;
-   max-width: 950px;
+   width: 100%;
    height: auto;
  }
  
@@ -459,7 +596,7 @@ a.anchor {
 
   #myImg {
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   /* The Modal (background) */
@@ -482,7 +619,7 @@ a.anchor {
   margin: auto;
   display: block;
   width: 100%;
-  max-width: 950px;
+  max-width: 1000px;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -515,10 +652,9 @@ a.anchor {
 }
  
 .events-info-container {
-  width: 80%;
-  max-width: 950px;
+  width: 100%;
   height: auto;
-  /*margin-left: 3%;*/
+  margin-top: .8em;
 }
 
 .events-info-container h4 {
@@ -638,7 +774,7 @@ a.anchor {
 
 .schedule-container {
   width: 100%;
-  max-width: 950px;
+  max-width: 600px;
   height: auto;
 }
 
@@ -649,24 +785,28 @@ a.anchor {
 }
 
 .schedule-inner-container {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 .schedule-time {
+  width: fit-content;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
 .schedule-activity {
+  width: fit-content;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   /*margin-left: 40px;*/
 }
 
 .section {
+  width: 100%;
   border-bottom: 3px solid black;
   padding: 8px 0;
+
 }
 
 .first-section {
@@ -806,6 +946,7 @@ a.anchor {
 .location-container {
   width: 80%;
   height: auto;
+  max-width: 900px;
 }
 
 .location-club-container {
@@ -961,7 +1102,7 @@ a.anchor {
 
 footer p {
   font-family: 'Poppins', sans-serif;
-  font-size: .6em;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -984,7 +1125,7 @@ a.contact-top-btn {
 
 .fa-chevron-up {
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
   /*background-color: darkturquoise;*/
 }
@@ -999,13 +1140,13 @@ a.contact-top-btn {
 .footer-container-info {
   width: 100%;
   height: auto;
-  align-content: space-between;
 }
 
 .copy {
   width: 50%;
   height: auto;
   color: whitesmoke;
+  font-size: .6em;
 }
 
 .created {
@@ -1013,6 +1154,7 @@ a.contact-top-btn {
   height: auto;
   text-align: right;
   color: whitesmoke;
+  font-size: .6em;
 }
 /************************************************       END FOOTER */
 /********************************************************************     END XXXpx-375px */
@@ -1072,7 +1214,7 @@ a.contact-top-btn {
 
 
 
-/********************************************************************     500px-767px */
+/********************************************************************     500px-600px */
 @media only screen and (min-width: 500px) {
 /************************************************       BANNER */
 .banner-img {
@@ -1122,14 +1264,14 @@ a.contact-top-btn {
 .schedule-activity {
   margin-left: 40px;
 }
-/************************************************       END EcHEDuLE */
+/************************************************       END SCHEDULE */
 
 .location {
   background-size: 300%;
 }
 
 }
-/********************************************************************     END 500px-767px */
+/********************************************************************     END 500px-600px */
 
 
 
@@ -1140,6 +1282,22 @@ a.contact-top-btn {
 
 
 @media only screen and (min-width: 600px) {
+  /************************************************      ABOUT */
+  .about-us-services-container {
+    justify-content: space-between;
+  }
+
+  .about-athletic-training, .about-speed-training, 
+  .about-online-training, .about-nfl-prep {
+    width: 48%;
+    /*min-height: 301.8px;*/
+  }
+
+  .about-athletic-training, .about-speed-training {
+    margin-top: 0;
+  }
+/************************************************      END ABOUT */
+
 .register-btn-container {
   max-width: 475px;
   justify-content: space-between;
@@ -1172,7 +1330,7 @@ a.contact-top-btn {
 
   /************************************************      NAV-CONTAINER */
   .nav-container {
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0;
     /*padding: 0 8%;*/
     /*background-color: lightgreen;*/
@@ -1266,25 +1424,94 @@ a.contact-top-btn {
 
 
 
-
-  /************************************************       EVENT PHOTO */
-  #myImg:hover {
-    opacity: 1;
-   }
- 
-   #myImg {
-     cursor: default;
-     transition: 0.3s;
+/************************************************      ABOUT */
+   .about-us-container{
+    max-width: 900px;
    }
 
-  /************************************************       END EVENT PHOTO */
+   .about-us-inner-container {
+     width: 80%;
+     max-width: 900px;
+     justify-content: space-between;
+   }
+
+   .about-us-img {
+     width: 48%;
+   }
+
+   .about-us-info {
+     width: 48%;
+   }
+
+   .about-first-p {
+    margin-top: 0;
+  }
+
+  .about-us-services-container {
+    justify-content: space-between;
+  }
+
+  .about-athletic-training, .about-speed-training, 
+  .about-online-training, .about-nfl-prep {
+    min-height: 251.8px;
+  }
+
+  .about-athletic-training, .about-speed-training {
+    margin-top: 0;
+  }
+/************************************************      END ABOUT */
 
 
 
 
-  /************************************************       PROCESS */
+  /************************************************       EVENT INFO */
+   .events-inner-container {
+     justify-content: space-between;
+     max-width: 800px;
+   }
+
+   .events-img-container {
+     width: 51%;
+     max-width: 400px;
+   }
+
+   .events-info-container {
+     width: 47.3%;
+     max-width: 375px;
+     margin-top: 0;
+   }
+
+   .events-info-container h4 {
+     margin-left: 20px;
+   }
+  /************************************************       END EVENT INFO */
+
+
+
+
+  /************************************************       REGISTRATION */
+   .register-btn:hover, .payment-btn:hover {
+    background-color: #34b8e7;
+    transition: .5s;
+   }
+  /************************************************       END REGISTRATION */
+
+
+
+
+  /************************************************       REGISTRATION */
+    .google-btn:hover {
+      background-color: #34b8e7;
+      transition: .5s;
+     }
+  /************************************************       END REGISTRATION */
+
+
+
+
+  /************************************************       SPONSERS */
   .sponsers-container {
-    max-width: 950px;
+    max-width: 900px;
   }
   .logo-container1 {
     width: 25%;
@@ -1303,7 +1530,7 @@ a.contact-top-btn {
     width: 25%;
     margin-top: 0;
   }
-/************************************************       END PROCESS */
+/************************************************       END SPONSERS */
 .location {
   background-size: 140%;
 }
@@ -1324,17 +1551,74 @@ a.contact-top-btn {
 
 
 
+/********************************************************************     dumb photo */
+@media only screen and (min-width: 777px) {
+.about-us-img {
+  height: 335px;
+}
+}
+@media only screen and (min-width: 845px) {
+  .about-us-img {
+    background-position: 50% 50%;
+    height: 317px;
+  }
+  }
+/********************************************************************     dumb photo */
+
+
+
 
 /********************************************************************     900px-XXXpx */
+/************************************************        DUMB PHOTO */
 @media only screen and (min-width: 900px) {
+
+  .about-us-img {
+    background-position: 50% 50%;
+    height: 287.8px;
+  }
+
+.numbers-info {
+  column-count: 2;
+  column-gap: 50px;
+  max-height: 300px;
+}
+/************************************************        END DUMB PHOTO */
+
+
+
+
+
+/************************************************        EVENT DETAILS */
+  .events-info-container h4 {
+    margin-left: 20px;
+  }
+
+  .event-p {
+    margin-left: 20px;
+  }
+/************************************************        END EVENT DETAILS */
+
+
+
+
+
+/************************************************        LOCATION */
   .location-info-container {
     justify-content: space-between;
   }
-  .location-club-container, .location-address-container {
-    max-width: 45%;
+  .location-club-container {
+    width: 45%;
     margin-top: 0;
   }
+  .location-address-container {
+    width: 45%;
+    max-width: 343px;
+    margin-top: 0;
+  }
+/************************************************        END LOCATION */
 }
+
+
 
 
 /********************************************************************     1000px-XXXpx */
@@ -1344,7 +1628,7 @@ a.contact-top-btn {
   }
   .banner2-img-container {
     width: 100%;
-    max-width: 950px;
+    max-width: 900px;
     height: auto;
     justify-content: space-around;
   }
@@ -1356,12 +1640,67 @@ a.contact-top-btn {
   .location {
     background-size: 100%;
   }
+
+      /************************************************      ABOUT */
+      .about-us-container{
+        max-width: 900px;
+       }
+
+       .about-us-inner-container {
+        width: 100%;
+       }
+
+       .about-us-img {
+        background-position: 50% 33%;
+        height: 240px;
+       }
+    
+      .about-us-services-container {
+        width: 100%;
+        justify-content: space-between;
+      }
+    
+      .about-athletic-training, .about-speed-training, 
+      .about-online-training, .about-nfl-prep {
+        width: 23%;
+        margin-top: 0;
+      }
+    /************************************************      END ABOUT */
 }
+
+
+
+
+/********************************************************************     1100px-XXXpx */
+@media only screen and (min-width: 1100px) {
+/*.location-container {
+  padding-left: 40px;
+}*/
+}
+/********************************************************************     1100px-XXXpx */
+
+
 /********************************************************************     1200px-XXXpx */
 @media only screen and (min-width: 1200px) {
   .banner-img {
     background-size: 80%;
   }
+    /************************************************      ABOUT */
+  .about-us-container{
+      max-width: 1050px;
+     }
+  
+    /*.about-us-services-container {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .about-athletic-training, .about-speed-training, 
+    .about-online-training, .about-nfl-prep {
+      width: 23%;
+      margin-top: 0;
+    }*/
+  /************************************************      END ABOUT */
 }
 /********************************************************************     1500px-XXXpx */
 @media only screen and (min-width: 1500px) {
@@ -1380,4 +1719,17 @@ a.contact-top-btn {
   .banner-img {
     background-size: 50%;
   }
+}
+
+
+
+
+
+@media only screen and (min-width: 928px) {
+/************************************************        SERVICES */
+  .about-athletic-training, .about-speed-training, 
+  .about-online-training, .about-nfl-prep {
+    min-height: auto;
+  }
+/************************************************        END SERVICES */
 }
