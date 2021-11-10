@@ -1575,7 +1575,7 @@ a.contact-top-btn {
 }
 @media only screen and (min-width: 845px) {
   .about-us-img {
-    background-position: 50% 50%;
+    background-position: 50% 35%;
     height: 317px;
   }
   }
@@ -1589,7 +1589,7 @@ a.contact-top-btn {
 @media only screen and (min-width: 900px) {
 
   .about-us-img {
-    background-position: 50% 50%;
+    background-position: 50% 25%;
     height: 287.8px;
   }
 
@@ -1667,7 +1667,7 @@ a.contact-top-btn {
        }
 
        .about-us-img {
-        background-position: 50% 33%;
+        background-position: 50% 22%;
         height: 240px;
        }
     
